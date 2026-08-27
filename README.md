@@ -8,7 +8,7 @@ Target device: **iPad Pro 11" (M5)**, iOS 26+. Single iPad, single rig, local-on
 
 ## My role
 
-Built with one teammate, starting 16 August 2026 — still in progress. I wrote about 90% of the codebase: 4,726 of 5,270 lines, measured with `git blame -w -M` across the shipping branch.
+Built with one teammate, starting 16 August 2026 — still in progress. I wrote about 89% of the code: 4,307 of 4,851 lines across the Swift app and the ESP32 firmware, measured with `git blame -w -M` against the shipping branch. I also wrote all of the architecture documentation.
 
 **What I built**
 
