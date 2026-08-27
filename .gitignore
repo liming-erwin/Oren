@@ -1,0 +1,10 @@
+.DS_Store
+
+# Xcode user-specific state (not the project file — there is no XcodeGen
+# setup here, so app/biki.xcodeproj must stay committed)
+xcuserdata/
+*.xcuserstate
+
+# Build output
+DerivedData/
+build/

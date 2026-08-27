@@ -1,4 +1,4 @@
-# Biki
+# Oren
 
 QC and grading system for a fruit-sorting rig. An iPad receives per-fruit weight and colour readings from an ESP32 over Bluetooth Low Energy, grades each fruit on-device, tracks it against a batch, and writes the grade back so the sorter routes the fruit into the correct lane.
 
@@ -23,7 +23,7 @@ Built with one teammate, starting 16 August 2026 — still in progress. I wrote 
 ## Repository layout
 
 ```
-biki/
+Oren/
 ├── app/          iPadOS app — Xcode project at app/biki.xcodeproj
 └── esp/          ESP32 firmware
     ├── ble.ino        the wire contract between rig and app
@@ -61,4 +61,4 @@ Views never touch Bluetooth directly. `FruitDataSource` is a protocol with two i
 2. Run the app on a physical iPad and set **Sumber Data** to *BLE*.
 3. See §6 of the [app README](app/biki/README.md) for pairing and troubleshooting.
 
-> The app is titled "Oren iPad App" in the docs while the repository and Xcode target are named `biki` — both refer to this project.
+> The Xcode project and target are still named `biki`, the working title from early development. The app was renamed Oren; the target was never renamed to match, so paths throughout this repo still read `app/biki/`.
