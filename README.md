@@ -4,7 +4,7 @@ QC and grading system for a fruit-sorting rig. An iPad receives per-fruit weight
 
 Target device: **iPad Pro 11" (M5)**, iOS 26+. Single iPad, single rig, local-only persistence — there is no backend.
 
-> This is my copy of a team project, kept as a portfolio reference. Development continues upstream at [stepanusimnuel/biki](https://github.com/stepanusimnuel/biki).
+> This is my copy of a team project, kept as a portfolio reference. Active development continues in the team's own repository.
 
 ## My role
 
